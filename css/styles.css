@@ -1,0 +1,56 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav .nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-content {
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.btn {
+  background: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.swiper-slide {
+  text-align: center;
+}
+
+.service-grid, .testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
