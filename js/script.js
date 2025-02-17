@@ -14,3 +14,9 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
   // Use EmailJS to send the form data
   alert('Message sent successfully!');
 });
+
+// Preloader
+window.addEventListener('load', function () {
+    const preloader = document.getElementById('preloader');
+    preloader.style.display = 'none';
+});
